@@ -20,6 +20,6 @@ jobs:
       # env:
       #   WHATEVER_TOKEN: ${{ secrets.YOU_WANT }}
     - name: Push changes
-      uses: mikeal/publish-to-github-action@master
+      uses: mikeal/publish-to-github-action@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
