@@ -1,4 +1,4 @@
-lon:
+on:
   push:
     paths:
       - .github/workflowsscrapet.yml # Only run a new workflow every time thisfile changes
