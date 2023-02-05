@@ -1,4 +1,7 @@
 on:
+  push:
+    paths:
+      - .github/workflowsscrapet.yml # Only run a new workflow every time thisfile changes
   schedule:
     - cron:  '0 * * * *' # Every hour. Ref https://crontab.guru/examples.html
 name: Scrape Data
