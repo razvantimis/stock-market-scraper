@@ -3,22 +3,20 @@ on:
     - cron:  '0 * * * *' # Every hour. Ref https://crontab.guru/examples.html
 name: Scrape Data
 jobs:
-  build:
-    name: Build
+  scheduled:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Build
-      run: npm install
     - name: Set up Deno
       uses: denolib/setup-deno@v2
       with:
-        deno-version: v1.x
-
+        deno-version: v1.x   
+    - name: Check out repo
+      uses: actions/checkout@v2
     - name: Scrape
-    run: npm run scrape 
+      run: npm run scrape 
       # env:
       #   WHATEVER_TOKEN: ${{ secrets.YOU_WANT }}
-    - uses: mikeal/publish-to-github-action@master
+    - name: Push changes
+      uses: mikeal/publish-to-github-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
