@@ -10,9 +10,5 @@
     "watch-file-changes": "nodemon -w ./src --exec \"npm run deno\" -e \"js ts json mjs\"",
     "start": "npm run deno-install && npm run set-up-types && npm run watch-file-changes"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  },
   "keywords": []
 }
