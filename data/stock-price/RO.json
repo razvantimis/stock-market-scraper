@@ -53,5 +53,10 @@
     "symbol": "R2603AE",
     "price": 92.6,
     "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "TRP",
+    "price": 0.595,
+    "exchangeCountryCode": "RO"
   }
 ]
