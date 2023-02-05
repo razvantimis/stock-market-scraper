@@ -1,0 +1,46 @@
+[
+  {
+    "symbol": "TLV",
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "BIO",
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "BNET",
+    "exchangeCountryCode": "RO"
+  },
+   {
+    "symbol": "WINE",
+    "exchangeCountryCode": "RO"
+  },
+   {
+    "symbol": "M",
+    "exchangeCountryCode": "RO"
+  },
+   {
+    "symbol": "MAM",
+    "exchangeCountryCode": "RO"
+  },
+   {
+    "symbol": "NRF",
+    "exchangeCountryCode": "RO"
+  },
+   {
+    "symbol": "SNG",
+    "exchangeCountryCode": "RO"
+  },
+   {
+    "symbol": "VIV25E",
+    "exchangeCountryCode": "RO"
+  },
+   {
+    "symbol": "R2512AE",
+    "exchangeCountryCode": "RO"
+  },
+   {
+    "symbol": "R2603AE",
+    "exchangeCountryCode": "RO"
+  }
+]
