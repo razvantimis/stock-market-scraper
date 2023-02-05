@@ -1,7 +1,7 @@
 on:
   push:
     paths:
-      - .github/workflowsscrapet.yml # Only run a new workflow every time thisfile changes
+      - .github/workflows/scrape.yml # Only run a new workflow every time thisfile changes
   schedule:
     - cron:  '0 * * * *' # Every hour. Ref https://crontab.guru/examples.html
 name: Scrape Data
@@ -16,10 +16,11 @@ jobs:
     - name: Check out repo
       uses: actions/checkout@v2
     - name: Scrape
-      run: npm run scrape 
+      run: deno run --allow-all ./src/index.ts
       # env:
       #   WHATEVER_TOKEN: ${{ secrets.YOU_WANT }}
     - name: Push changes
       uses: mikeal/publish-to-github-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
+        BRANCH_NAME: main
