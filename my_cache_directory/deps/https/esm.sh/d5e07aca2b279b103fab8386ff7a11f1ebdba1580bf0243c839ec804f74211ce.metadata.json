@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=PU9vyD75HW4lkNFuUdfTQZ7aec%2BO4%2FcWNtbgVtUhiU7k9GBg5cj5n%2FqIAa%2Bm3326RnCmQKIgWihSord2vvjPDfARXfgVaTKpUaW5fmpzcJWp5SNJB7%2BiONc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "vary": "Origin, Accept-Encoding",
+    "cache-control": "public, max-age=31536000, immutable",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "cf-cache-status": "HIT",
+    "server": "cloudflare",
+    "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+    "date": "Sun, 05 Feb 2023 17:01:48 GMT",
+    "content-type": "text/javascript; charset=utf-8",
+    "age": "671809",
+    "cf-ray": "794d35c8cb86aa31-DFW",
+    "access-control-allow-origin": "*",
+    "last-modified": "Sat, 28 Jan 2023 22:24:59 GMT",
+    "x-content-source": "workers-kv"
+  },
+  "url": "https://esm.sh/v106/domutils@3.0.1/deno/domutils.js",
+  "now": {
+    "secs_since_epoch": 1675616508,
+    "nanos_since_epoch": 291471924
+  }
+}

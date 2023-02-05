@@ -1,0 +1,3 @@
+/* esm.sh - cheerio@1.0.0-rc.12 */
+export * from "https://esm.sh/v106/cheerio@1.0.0-rc.12/deno/cheerio.js";
+export { default } from "https://esm.sh/v106/cheerio@1.0.0-rc.12/deno/cheerio.js";

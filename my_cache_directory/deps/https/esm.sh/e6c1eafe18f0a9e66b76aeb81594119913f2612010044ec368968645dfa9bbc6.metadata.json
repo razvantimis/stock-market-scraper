@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=D6CK%2BQGe7CQKbQ3HIVpkV6DbIZ3euwtDqI6A06ABCZ1l6r7RZqnUiPQEXdTfFFqMIp2FAnut7C4aL8BLM9GVOzA3JDyXFLw4odVqjHp%2FJwEfNdVLwxjYImg%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "cache-control": "public, max-age=31536000, immutable",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "content-type": "text/javascript; charset=utf-8",
+    "x-content-source": "workers-kv",
+    "cf-ray": "794d35ca2d54aa31-DFW",
+    "vary": "Origin, Accept-Encoding",
+    "date": "Sun, 05 Feb 2023 17:01:48 GMT",
+    "server": "cloudflare",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://esm.sh/v106/entities@4.4.0/deno/lib/escape.js",
+  "now": {
+    "secs_since_epoch": 1675616508,
+    "nanos_since_epoch": 630325756
+  }
+}

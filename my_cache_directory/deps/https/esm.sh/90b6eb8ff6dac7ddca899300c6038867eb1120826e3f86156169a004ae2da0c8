@@ -1,0 +1,6 @@
+import type { PseudoSelector } from "https://esm.sh/v106/css-what@6.1.0/lib/es/index.d.ts";
+import type { InternalOptions } from "../types.d.ts";
+export declare type Pseudo = <Node, ElementNode extends Node>(elem: ElementNode, options: InternalOptions<Node, ElementNode>, subselect?: string | null) => boolean;
+export declare const pseudos: Record<string, Pseudo>;
+export declare function verifyPseudoArgs<T extends Array<unknown>>(func: (...args: T) => boolean, name: string, subselect: PseudoSelector["data"], argIndex: number): void;
+//# sourceMappingURL=pseudos.d.ts.map

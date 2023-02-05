@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "vary": "Origin, Accept-Encoding",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FhhRMcJLQJf95SH0pnOssdGVhZzExbOpX4d1CqNZQNqJOM7wzr2JOP6JftLBxxCY84VpVVipl54S6lxjDPVDrZLwFTHcyfM1KrfrzMFnWKQ3I9XDUljgH94%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "cf-ray": "794d35c8cb82aa31-DFW",
+    "server": "cloudflare",
+    "cf-cache-status": "HIT",
+    "last-modified": "Sat, 04 Feb 2023 15:47:57 GMT",
+    "cache-control": "public, max-age=31536000, immutable",
+    "age": "90831",
+    "x-content-source": "workers-kv",
+    "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+    "date": "Sun, 05 Feb 2023 17:01:48 GMT",
+    "content-type": "text/javascript; charset=utf-8",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://esm.sh/v106/dom-serializer@2.0.0/deno/dom-serializer.js",
+  "now": {
+    "secs_since_epoch": 1675616508,
+    "nanos_since_epoch": 295327493
+  }
+}

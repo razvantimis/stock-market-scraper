@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "text/javascript; charset=utf-8",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "age": "14282",
+    "x-content-source": "workers-kv",
+    "cf-cache-status": "HIT",
+    "access-control-allow-origin": "*",
+    "date": "Sun, 05 Feb 2023 17:01:48 GMT",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=0P%2BLTqUvWriW6%2FJruB0R5obnAhfp5ph8IrtjUJO63j433ubyy%2BOV9nccAmkk5G3jB8fR2B3Si%2BJ5iIfLnP%2BA5%2Bze0EaVBSvhxvK0sErNFWFPq5PGLFzoRkQ%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "server": "cloudflare",
+    "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+    "last-modified": "Sun, 05 Feb 2023 13:03:46 GMT",
+    "cache-control": "public, max-age=31536000, immutable",
+    "vary": "Origin, Accept-Encoding",
+    "cf-ray": "794d35ca6db6aa31-DFW"
+  },
+  "url": "https://esm.sh/v106/nth-check@2.1.1/deno/nth-check.js",
+  "now": {
+    "secs_since_epoch": 1675616508,
+    "nanos_since_epoch": 547005845
+  }
+}
