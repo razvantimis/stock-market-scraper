@@ -19,7 +19,7 @@ jobs:
       run: deno run --allow-all ./src/index.ts
       # env:
       #   WHATEVER_TOKEN: ${{ secrets.YOU_WANT }}
-    - name: Push changes
+    - name: Push changes if there are
       uses: mikeal/publish-to-github-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
