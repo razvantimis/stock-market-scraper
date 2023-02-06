@@ -1,12 +1,12 @@
 [
   {
     "symbol": "TLV",
-    "price": 20.1,
+    "price": 20.05,
     "exchangeCountryCode": "RO"
   },
   {
     "symbol": "BIO",
-    "price": 0.648,
+    "price": 0.644,
     "exchangeCountryCode": "RO"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "symbol": "WINE",
-    "price": 9.09,
+    "price": 9.12,
     "exchangeCountryCode": "RO"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "symbol": "TRP",
-    "price": 0.585,
+    "price": 0.586,
     "exchangeCountryCode": "RO"
   }
 ]
