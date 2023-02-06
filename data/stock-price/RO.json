@@ -1,7 +1,7 @@
 [
   {
     "symbol": "TLV",
-    "price": 20.1,
+    "price": 20.05,
     "exchangeCountryCode": "RO"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "symbol": "BNET",
-    "price": 0.2935,
+    "price": 0.292,
     "exchangeCountryCode": "RO"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "symbol": "M",
-    "price": 19.76,
+    "price": 19.68,
     "exchangeCountryCode": "RO"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "symbol": "SNG",
-    "price": 40.6,
+    "price": 40.5,
     "exchangeCountryCode": "RO"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "symbol": "R2512AE",
-    "price": 93.9,
+    "price": 93.75,
     "exchangeCountryCode": "RO"
   },
   {
