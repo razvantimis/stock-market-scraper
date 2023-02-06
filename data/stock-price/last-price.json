@@ -6,12 +6,12 @@
   },
   {
     "symbol": "ABBV",
-    "price": 145,
+    "price": 145.02,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "AFL",
-    "price": 69.585,
+    "price": 69.58,
     "exchangeCountryCode": "US"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "symbol": "ATO",
-    "price": 117.63,
+    "price": 117.64,
     "exchangeCountryCode": "US"
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "symbol": "BLK",
-    "price": 742.42,
+    "price": 742.38,
     "exchangeCountryCode": "US"
   },
   {
@@ -56,17 +56,17 @@
   },
   {
     "symbol": "CBOE",
-    "price": 126.32,
+    "price": 126.25,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "CLX",
-    "price": 152.59,
+    "price": 152.57,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "CMI",
-    "price": 250.98,
+    "price": 250.9,
     "exchangeCountryCode": "US"
   },
   {
@@ -81,17 +81,17 @@
   },
   {
     "symbol": "CVX",
-    "price": 169.61,
+    "price": 169.64,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "ED",
-    "price": 93.57,
+    "price": 93.55,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "ELV",
-    "price": 478.9,
+    "price": 478.67,
     "exchangeCountryCode": "US"
   },
   {
@@ -101,17 +101,17 @@
   },
   {
     "symbol": "GD",
-    "price": 232.355,
+    "price": 232.35,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "HD",
-    "price": 329.23,
+    "price": 329.27,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "HII",
-    "price": 221.94,
+    "price": 222.01,
     "exchangeCountryCode": "US"
   },
   {
@@ -121,12 +121,12 @@
   },
   {
     "symbol": "HYLN",
-    "price": 3.52,
+    "price": 3.53,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "ICE",
-    "price": 108.31,
+    "price": 108.32,
     "exchangeCountryCode": "US"
   },
   {
@@ -136,7 +136,7 @@
   },
   {
     "symbol": "JNJ",
-    "price": 163.35,
+    "price": 163.36,
     "exchangeCountryCode": "US"
   },
   {
@@ -146,7 +146,7 @@
   },
   {
     "symbol": "KMB",
-    "price": 130.37,
+    "price": 130.39,
     "exchangeCountryCode": "US"
   },
   {
@@ -156,17 +156,17 @@
   },
   {
     "symbol": "KR",
-    "price": 44.545,
+    "price": 44.54,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "LMT",
-    "price": 469.11,
+    "price": 469.1,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "LYB",
-    "price": 98.78,
+    "price": 98.79,
     "exchangeCountryCode": "US"
   },
   {
@@ -181,7 +181,7 @@
   },
   {
     "symbol": "MMM",
-    "price": 116.49,
+    "price": 116.5,
     "exchangeCountryCode": "US"
   },
   {
@@ -191,7 +191,7 @@
   },
   {
     "symbol": "MRK",
-    "price": 104,
+    "price": 104.03,
     "exchangeCountryCode": "US"
   },
   {
@@ -201,12 +201,12 @@
   },
   {
     "symbol": "NEE",
-    "price": 75.5,
+    "price": 75.51,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "NKE",
-    "price": 125.71,
+    "price": 125.73,
     "exchangeCountryCode": "US"
   },
   {
@@ -221,7 +221,7 @@
   },
   {
     "symbol": "O",
-    "price": 67.74,
+    "price": 67.73,
     "exchangeCountryCode": "US"
   },
   {
@@ -236,22 +236,22 @@
   },
   {
     "symbol": "PG",
-    "price": 141.36,
+    "price": 141.4,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "PM",
-    "price": 101.8,
+    "price": 101.81,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "PNW",
-    "price": 75.62,
+    "price": 75.61,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "PRU",
-    "price": 102.06,
+    "price": 102.1,
     "exchangeCountryCode": "US"
   },
   {
@@ -266,7 +266,7 @@
   },
   {
     "symbol": "RGA",
-    "price": 145.8,
+    "price": 145.76,
     "exchangeCountryCode": "US"
   },
   {
@@ -321,7 +321,7 @@
   },
   {
     "symbol": "TRV",
-    "price": 186.01,
+    "price": 185.99,
     "exchangeCountryCode": "US"
   },
   {
@@ -331,17 +331,17 @@
   },
   {
     "symbol": "UGI",
-    "price": 40.15,
+    "price": 40.14,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "UL",
-    "price": 50.26,
+    "price": 50.27,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "UNM",
-    "price": 42.37,
+    "price": 42.35,
     "exchangeCountryCode": "US"
   },
   {
@@ -351,7 +351,7 @@
   },
   {
     "symbol": "VZ",
-    "price": 41.3,
+    "price": 41.28,
     "exchangeCountryCode": "US"
   },
   {
@@ -371,7 +371,7 @@
   },
   {
     "symbol": "WM",
-    "price": 151.81,
+    "price": 151.82,
     "exchangeCountryCode": "US"
   }
 ]
