@@ -1,7 +1,7 @@
 [
   {
     "symbol": "TLV",
-    "price": 20.05,
+    "price": 20.1,
     "exchangeCountryCode": "RO"
   },
   {
@@ -16,12 +16,12 @@
   },
   {
     "symbol": "WINE",
-    "price": 9.12,
+    "price": 9.09,
     "exchangeCountryCode": "RO"
   },
   {
     "symbol": "M",
-    "price": 19.68,
+    "price": 19.76,
     "exchangeCountryCode": "RO"
   },
   {
@@ -31,12 +31,12 @@
   },
   {
     "symbol": "NRF",
-    "price": 6.84,
+    "price": 6.87,
     "exchangeCountryCode": "RO"
   },
   {
     "symbol": "SNG",
-    "price": 40.5,
+    "price": 40.6,
     "exchangeCountryCode": "RO"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "symbol": "R2603AE",
-    "price": 92.6,
+    "price": 92.9869,
     "exchangeCountryCode": "RO"
   },
   {
