@@ -1,37 +1,37 @@
 [
   {
     "symbol": "AAPL",
-    "price": 151.92,
+    "price": 152.301,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "ABBV",
-    "price": 145.49,
+    "price": 145.6,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "AFL",
-    "price": 69.22,
+    "price": 69.6527,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "AMGN",
-    "price": 244.81,
+    "price": 244.2,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "AOS",
-    "price": 67.72,
+    "price": 67.64,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "ATO",
-    "price": 116.265,
+    "price": 116.39,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "AVGO",
-    "price": 600.17,
+    "price": 600.74,
     "exchangeCountryCode": "US"
   },
   {
@@ -41,12 +41,12 @@
   },
   {
     "symbol": "BLK",
-    "price": 742.83,
+    "price": 745.84,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "BMY",
-    "price": 74.505,
+    "price": 74.415,
     "exchangeCountryCode": "US"
   },
   {
@@ -56,117 +56,117 @@
   },
   {
     "symbol": "CBOE",
-    "price": 127.19,
+    "price": 127.39,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "CLX",
-    "price": 152.5,
+    "price": 151.87,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "CMI",
-    "price": 251.39,
+    "price": 251.095,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "CPB",
-    "price": 51.81,
+    "price": 51.94,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "CSCO",
-    "price": 47.875,
+    "price": 47.885,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "CVX",
-    "price": 168.74,
+    "price": 168.68,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "ED",
-    "price": 92.39,
+    "price": 92.58,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "ELV",
-    "price": 480.11,
+    "price": 482.09,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "EVLV",
-    "price": 3.155,
+    "price": 3.12,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "GD",
-    "price": 232.595,
+    "price": 232.93,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "HD",
-    "price": 329.59,
+    "price": 329.415,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "HII",
-    "price": 220.795,
+    "price": 220.655,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "HRL",
-    "price": 45.54,
+    "price": 45.62,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "HYLN",
-    "price": 3.6,
+    "price": 3.56,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "ICE",
-    "price": 107.82,
+    "price": 108.15,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "INTC",
-    "price": 29.0175,
+    "price": 29.005,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "JNJ",
-    "price": 163.2885,
+    "price": 163.415,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "JPM",
-    "price": 140.38,
+    "price": 140.995,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "KMB",
-    "price": 130.2499,
+    "price": 130.05,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "KO",
-    "price": 60.0049,
+    "price": 60.14,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "KR",
-    "price": 44.135,
+    "price": 44.335,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "LMT",
-    "price": 463.92,
+    "price": 464.365,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "LYB",
-    "price": 97.44,
+    "price": 97.94,
     "exchangeCountryCode": "US"
   },
   {
@@ -181,32 +181,32 @@
   },
   {
     "symbol": "MMM",
-    "price": 116.84,
+    "price": 116.69,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "MO",
-    "price": 46.88,
+    "price": 47.0525,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "MRK",
-    "price": 103.81,
+    "price": 104.045,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "MSFT",
-    "price": 256.995,
+    "price": 256.9,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "NEE",
-    "price": 74.8,
+    "price": 75.1329,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "NKE",
-    "price": 124.935,
+    "price": 125.525,
     "exchangeCountryCode": "US"
   },
   {
@@ -216,42 +216,42 @@
   },
   {
     "symbol": "NSP",
-    "price": 111.575,
+    "price": 111.135,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "O",
-    "price": 67.1291,
+    "price": 67.1987,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "PEP",
-    "price": 171.26,
+    "price": 171.77,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "PFE",
-    "price": 43.83,
+    "price": 43.8375,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "PG",
-    "price": 141.46,
+    "price": 141.31,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "PM",
-    "price": 102.05,
+    "price": 102.26,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "PNW",
-    "price": 74.57,
+    "price": 74.94,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "PRU",
-    "price": 101.77,
+    "price": 102.16,
     "exchangeCountryCode": "US"
   },
   {
@@ -266,12 +266,12 @@
   },
   {
     "symbol": "RGA",
-    "price": 144.54,
+    "price": 145.49,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "SBUX",
-    "price": 104.76,
+    "price": 105.37,
     "exchangeCountryCode": "US"
   },
   {
@@ -281,12 +281,12 @@
   },
   {
     "symbol": "SJM",
-    "price": 150.9,
+    "price": 151.575,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "SNA",
-    "price": 256.58,
+    "price": 256.54,
     "exchangeCountryCode": "US"
   },
   {
@@ -301,7 +301,7 @@
   },
   {
     "symbol": "T",
-    "price": 19.595,
+    "price": 19.565,
     "exchangeCountryCode": "US"
   },
   {
@@ -311,7 +311,7 @@
   },
   {
     "symbol": "TROW",
-    "price": 122.75,
+    "price": 123.2,
     "exchangeCountryCode": "US"
   },
   {
@@ -321,27 +321,27 @@
   },
   {
     "symbol": "TRV",
-    "price": 184.33,
+    "price": 185.62,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "TXN",
-    "price": 181.2,
+    "price": 181.245,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "UGI",
-    "price": 40.49,
+    "price": 40.255,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "UL",
-    "price": 50.17,
+    "price": 50.165,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "UNM",
-    "price": 42.17,
+    "price": 42.41,
     "exchangeCountryCode": "US"
   },
   {
@@ -351,17 +351,17 @@
   },
   {
     "symbol": "VZ",
-    "price": 41.18,
+    "price": 41.1025,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "WBA",
-    "price": 36.405,
+    "price": 36.425,
     "exchangeCountryCode": "US"
   },
   {
     "symbol": "WBD",
-    "price": 15.3093,
+    "price": 15.21,
     "exchangeCountryCode": "US"
   },
   {
@@ -371,7 +371,7 @@
   },
   {
     "symbol": "WM",
-    "price": 151.44,
+    "price": 151.895,
     "exchangeCountryCode": "US"
   }
 ]
