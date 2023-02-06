@@ -1,7 +1,7 @@
 [
   {
     "symbol": "TLV",
-    "price": 19.98,
+    "price": 20.05,
     "exchangeCountryCode": "RO"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "symbol": "M",
-    "price": 19.88,
+    "price": 19.8,
     "exchangeCountryCode": "RO"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "symbol": "SNG",
-    "price": 40.75,
+    "price": 40.6,
     "exchangeCountryCode": "RO"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "symbol": "TRP",
-    "price": 0.595,
+    "price": 0.59,
     "exchangeCountryCode": "RO"
   }
 ]
