@@ -67,7 +67,7 @@ async function getStockPrice(watchList: WatchAsset[]): Promise<StockPrice[]> {
 
   const usWatchList = watchList.filter(
     (asset) => asset.exchangeCountryCode === "US"
-  );
+);
   console.time("Fetching stock prices from US...");
   const usStockPriceList = await getLastUSStockPrice(usWatchList);
   console.timeEnd("Fetching stock prices from US...");
