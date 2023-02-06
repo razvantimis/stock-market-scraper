@@ -31,7 +31,7 @@ async function fetchSymbolPage(symbol: string) {
   return data;
 }
 
-async function getStockPriceFroBVB(symbol: string): Promise<number> {
+  async function getStockPriceFromBVBPage(symbol: string): Promise<number> {
   const stockRawData = await fetchSymbolPage(symbol);
 
   const stockPrice = parseFloat(stockRawData["Last price"]);
@@ -43,4 +43,4 @@ async function getStockPriceFroBVB(symbol: string): Promise<number> {
   return stockPrice;
 }
 
-export { getStockPriceFroBVB };
+export { getStockPriceFromBVBPage }

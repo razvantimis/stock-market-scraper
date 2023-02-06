@@ -4,6 +4,10 @@
     "exchangeCountryCode": "RO"
   },
   {
+    "symbol": "SNG",
+    "exchangeCountryCode": "RO"
+  },
+  {
     "symbol": "BIO",
     "exchangeCountryCode": "RO"
   },
@@ -11,40 +15,288 @@
     "symbol": "BNET",
     "exchangeCountryCode": "RO"
   },
-   {
-    "symbol": "WINE",
-    "exchangeCountryCode": "RO"
-  },
-   {
+  {
     "symbol": "M",
     "exchangeCountryCode": "RO"
   },
-   {
-    "symbol": "MAM",
-    "exchangeCountryCode": "RO"
-  },
-   {
+  {
     "symbol": "NRF",
-    "exchangeCountryCode": "RO"
-  },
-   {
-    "symbol": "SNG",
-    "exchangeCountryCode": "RO"
-  },
-   {
-    "symbol": "VIV25E",
-    "exchangeCountryCode": "RO"
-  },
-   {
-    "symbol": "R2512AE",
-    "exchangeCountryCode": "RO"
-  },
-   {
-    "symbol": "R2603AE",
     "exchangeCountryCode": "RO"
   },
   {
     "symbol": "TRP",
     "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "MAM",
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "WINE",
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "R2512AE",
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "R2603AE",
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "VIV25E",
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "O",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "MMM",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "PEP",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "AAPL",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "CVX",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "KMB",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "ABBV",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "MRK",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "KR",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "HD",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "HRL",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "AVGO",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "PG",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "JNJ",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "MSFT",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "HYLN",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "NEE",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "WM",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "VZ",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "TROW",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "UGI",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "MO",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "ED",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "EVLV",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "SJM",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "LMT",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "SNA",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "AOS",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "AMGN",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "PFE",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "GD",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "PRU",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "AFL",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "TRV",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "BMY",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "HII",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "ELV",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "CBOE",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "CSCO",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "CLX",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "KO",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "UNM",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "STOR",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "CPB",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "ATO",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "ICE",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "NSP",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "PM",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "WBA",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "T",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "RGA",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "SJI",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "PNW",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "INTC",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "LYB",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "CMI",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "TXN",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "WBD",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "JPM",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "UL",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "NKE",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "SBUX",
+    "exchangeCountryCode": "US"
+  },
+  {
+    "symbol": "BLK",
+    "exchangeCountryCode": "US"
   }
 ]
