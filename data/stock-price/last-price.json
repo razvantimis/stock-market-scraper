@@ -1,10 +1,5 @@
 [
   {
-    "symbol": "TLV",
-    "price": 19.98,
-    "exchangeCountryCode": "RO"
-  },
-  {
     "symbol": "BIO",
     "price": 0.648,
     "exchangeCountryCode": "RO"
@@ -12,11 +7,6 @@
   {
     "symbol": "BNET",
     "price": 0.294,
-    "exchangeCountryCode": "RO"
-  },
-  {
-    "symbol": "WINE",
-    "price": 9.1,
     "exchangeCountryCode": "RO"
   },
   {
@@ -35,16 +25,6 @@
     "exchangeCountryCode": "RO"
   },
   {
-    "symbol": "SNG",
-    "price": 40.75,
-    "exchangeCountryCode": "RO"
-  },
-  {
-    "symbol": "VIV25E",
-    "price": 23.8,
-    "exchangeCountryCode": "RO"
-  },
-  {
     "symbol": "R2512AE",
     "price": 93.89,
     "exchangeCountryCode": "RO"
@@ -55,8 +35,28 @@
     "exchangeCountryCode": "RO"
   },
   {
+    "symbol": "SNG",
+    "price": 40.75,
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "TLV",
+    "price": 19.98,
+    "exchangeCountryCode": "RO"
+  },
+  {
     "symbol": "TRP",
     "price": 0.595,
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "VIV25E",
+    "price": 23.8,
+    "exchangeCountryCode": "RO"
+  },
+  {
+    "symbol": "WINE",
+    "price": 9.1,
     "exchangeCountryCode": "RO"
   }
 ]

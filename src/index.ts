@@ -1,32 +1,18 @@
-import { getStockPriceFroBVB } from "./bvb/stock-price-scraper.ts";
-
-import watchAssetList from "./watch-list.json" assert { type: "json" };
-
-type StockPrice = {
-  symbol: string;
-  price: number;
-  exchangeCountryCode: string;
-};
-
-async function updateBvbStockPrice() {
-  const stockPriceList: StockPrice[] = [];
-
-  for (const watchAsset of watchAssetList) {
-    const price = await getStockPriceFroBVB(watchAsset.symbol);
-
-    stockPriceList.push({
-      symbol: watchAsset.symbol,
-      price: price,
-      exchangeCountryCode: watchAsset.exchangeCountryCode,
-    });
-  }
-
-  await writeToFile("stock-price/RO.json", stockPriceList);
-}
+import { getStockPrice } from "./stock-price/getStockPrice.ts";
+import watchList from "./watch-list.json" assert { type: "json" };
 
 async function writeToFile(filePath: string, data: any) {
-  const path = "./data/" + filePath;
-  await Deno.writeTextFile(path, JSON.stringify(data, null, 2));
+  const dataString = JSON.stringify(data, null, 2);
+  await Deno.writeTextFile(filePath, dataString);
 }
 
-updateBvbStockPrice();
+async function updateStockPrice() {
+  const finalStockPriceList = await getStockPrice(watchList);
+  
+  console.time("Saving stock price list...")
+  await writeToFile("./data/stock-price/last-price.json", finalStockPriceList);
+  console.timeEnd("Saving stock price list...")
+  
+}
+
+updateStockPrice();
