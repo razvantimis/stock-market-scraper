@@ -1,8 +1,9 @@
 import type { StockPrice } from "./types";
 import type { WatchAsset } from "../types";
-  import { getStockPriceFromBVBPage } from "./getStockPriceFromBVBPage.ts";
-import yahooFinance from "https://esm.sh/yahoo-finance2@2.3.10"
-
+import { getStockPriceFromBVBPage } from "./getStockPriceFromBVBPage.ts";
+import yahooFinance from "https://esm.sh/yahoo-finance2@2.3.10";
+import { isBVBMarketOpen } from "../utils/isBVBMarketOpen.ts";
+import { isNYSEMarketOpen } from "../utils/isNYSEMarketOpen.ts";
 
 async function getLastROStockPrice(
   assetList: WatchAsset[]
@@ -26,25 +27,26 @@ async function getLastUSStockPrice(
 ): Promise<StockPrice[]> {
   const stockPriceList: StockPrice[] = [];
 
-  const symbols = assetList.map(asset => asset.symbol);
+  const symbols = assetList.map((asset) => asset.symbol);
 
   const results = await yahooFinance.quote(symbols, {
-      fields: [
-        'regularMarketOpen',
-        'regularMarketDayLow',
-        'regularMarketDayHigh',
-        'regularMarketPrice',
-        'regularMarketVolume',
-        'regularMarketTime',
-        'postMarketPrice',
-        'preMarketPrice'
-      ], return: "object"
-    });
-    
+    fields: [
+      "regularMarketOpen",
+      "regularMarketDayLow",
+      "regularMarketDayHigh",
+      "regularMarketPrice",
+      "regularMarketVolume",
+      "regularMarketTime",
+      "postMarketPrice",
+      "preMarketPrice",
+    ],
+    return: "object",
+  });
+
   for (const asset of assetList) {
     const stockData = results[asset.symbol];
-    if(!stockData){
-      console.warn("Missing stock price for " + asset.symbol)
+    if (!stockData) {
+      console.warn("Missing stock price for " + asset.symbol);
       continue;
     }
     const price = stockData.regularMarketPrice;
@@ -56,26 +58,36 @@ async function getLastUSStockPrice(
   }
   return stockPriceList;
 }
-
+/** 
+  Fetch the stock prices from watch list 
+  Check if market is open, so it can return partial list
+*/
 async function getStockPrice(watchList: WatchAsset[]): Promise<StockPrice[]> {
-  const roWatchList = watchList.filter(
-    (asset) => asset.exchangeCountryCode === "RO"
+  const finalStockPriceList: StockPrice[] = [];
+
+  if (isBVBMarketOpen()) {
+    const roWatchList = watchList.filter(
+      (asset) => asset.exchangeCountryCode === "RO"
+    );
+
+    console.time("Fetching stock prices from RO...");
+    const roStockPriceList = await getLastROStockPrice(roWatchList);
+    console.timeEnd("Fetching stock prices from RO...");
+    finalStockPriceList.push(...roStockPriceList);
+  }
+
+  if (isNYSEMarketOpen()) {
+    const usWatchList = watchList.filter(
+      (asset) => asset.exchangeCountryCode === "US"
+    );
+    console.time("Fetching stock prices from US...");
+    const usStockPriceList = await getLastUSStockPrice(usWatchList);
+    console.timeEnd("Fetching stock prices from US...");
+    finalStockPriceList.push(...usStockPriceList);
+  }
+
+  return finalStockPriceList.sort((asset1, asset2) =>
+    asset1.symbol.localeCompare(asset2.symbol)
   );
-  console.time("Fetching stock prices from RO...");
-  const roStockPriceList = await getLastROStockPrice(roWatchList);
-  console.timeEnd("Fetching stock prices from RO...");
-
-  const usWatchList = watchList.filter(
-    (asset) => asset.exchangeCountryCode === "US"
-);
-  console.time("Fetching stock prices from US...");
-  const usStockPriceList = await getLastUSStockPrice(usWatchList);
-  console.timeEnd("Fetching stock prices from US...");
-
-  const finalStockPriceList = [...roStockPriceList, ...usStockPriceList].sort(
-    (asset1, asset2) => asset1.symbol.localeCompare(asset2.symbol)
-  );
-
-  return finalStockPriceList;
 }
 export { getStockPrice };
