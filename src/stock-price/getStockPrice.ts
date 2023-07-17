@@ -69,21 +69,30 @@ async function getStockPrice(watchList: WatchAsset[]): Promise<StockPrice[]> {
     const roWatchList = watchList.filter(
       (asset) => asset.exchangeCountryCode === "RO"
     );
+    try {
+      console.time("Fetching stock prices from RO...");
+      const roStockPriceList = await getLastROStockPrice(roWatchList);
+      console.timeEnd("Fetching stock prices from RO...");
+      finalStockPriceList.push(...roStockPriceList);
 
-    console.time("Fetching stock prices from RO...");
-    const roStockPriceList = await getLastROStockPrice(roWatchList);
-    console.timeEnd("Fetching stock prices from RO...");
-    finalStockPriceList.push(...roStockPriceList);
+    } catch (error) {
+      console.error(error)
+    }
   }
 
   if (isNYSEMarketOpen()) {
     const usWatchList = watchList.filter(
       (asset) => asset.exchangeCountryCode === "US"
     );
-    console.time("Fetching stock prices from US...");
-    const usStockPriceList = await getLastUSStockPrice(usWatchList);
-    console.timeEnd("Fetching stock prices from US...");
-    finalStockPriceList.push(...usStockPriceList);
+    try {
+      console.time("Fetching stock prices from US...");
+      const usStockPriceList = await getLastUSStockPrice(usWatchList);
+      console.timeEnd("Fetching stock prices from US...");
+
+      finalStockPriceList.push(...usStockPriceList);
+    } catch (error) {
+      console.error(error)
+    }
   }
 
   return finalStockPriceList.sort((asset1, asset2) =>

@@ -12,6 +12,7 @@ async function writeToFile(filePath: string, data: any) {
 }
 const getStockPriceKey = (stock: WatchAsset): string =>
   `${stock.exchangeCountryCode}:${stock.symbol}`;
+
 async function updateStockPrice() {
   const finalStockPriceList: StockPrice[] = await getStockPrice(watchList);
   
