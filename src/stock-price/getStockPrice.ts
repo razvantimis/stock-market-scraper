@@ -1,7 +1,7 @@
 import type { StockPrice } from "./types";
 import type { WatchAsset } from "../types";
 import { getStockPriceFromBVBPage } from "./getStockPriceFromBVBPage.ts";
-import yahooFinance from "https://esm.sh/yahoo-finance2@2.3.10";
+import yahooFinance from "https://esm.sh/yahoo-finance2@2.4.2";
 import { isBVBMarketOpen } from "../utils/isBVBMarketOpen.ts";
 import { isNYSEMarketOpen } from "../utils/isNYSEMarketOpen.ts";
 
