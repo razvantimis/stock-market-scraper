@@ -13,10 +13,14 @@ interface SymbolPageDetails {
 
 async function fetchSymbolPage(symbol: string) {
   const response = await fetch(
-    `https://www.bvb.ro/FinancialInstruments/Details/FinancialInstrumentsDetails.aspx?s=${symbol}`
+    `https://www.bvb.ro/FinancialInstruments/Details/FinancialInstrumentsDetails.aspx?s=${symbol}`,
+    {
+      headers: {
+        Cookie: 'BVBCulturePref=en-US'
+      }
+    }
   );
   const responseData = await response.text();
-
   const selector = cheerio.load(responseData);
 
   const table = selector("#ctl00_body_ctl02_PricesControl_dvCPrices");
@@ -27,7 +31,6 @@ async function fetchSymbolPage(symbol: string) {
     const key = name.text().trim();
     data[key as keyof SymbolPageDetails] = value.text().trim();
   });
-
   return data;
 }
 

@@ -1,7 +1,7 @@
 import type { StockPrice } from "./types";
 import type { WatchAsset } from "../types";
 import { getStockPriceFromBVBPage } from "./getStockPriceFromBVBPage.ts";
-import yahooFinance from "https://esm.sh/yahoo-finance2@2.4.2";
+import yahooFinance from "https://esm.sh/yahoo-finance2@2.4.3";
 import { isBVBMarketOpen } from "../utils/isBVBMarketOpen.ts";
 import { isNYSEMarketOpen } from "../utils/isNYSEMarketOpen.ts";
 
@@ -11,13 +11,18 @@ async function getLastROStockPrice(
   const stockPriceList: StockPrice[] = [];
 
   for (const asset of assetList) {
-    const price = await getStockPriceFromBVBPage(asset.symbol);
+    try {
+      const price = await getStockPriceFromBVBPage(asset.symbol);
 
-    stockPriceList.push({
-      symbol: asset.symbol,
-      price: price,
-      exchangeCountryCode: asset.exchangeCountryCode,
-    });
+      stockPriceList.push({
+        symbol: asset.symbol,
+        price: price,
+        exchangeCountryCode: asset.exchangeCountryCode,
+      });
+    } catch (error) {
+      console.warn("Missing stock price for " + asset.symbol);
+      continue;
+    }
   }
   return stockPriceList;
 }
@@ -30,16 +35,7 @@ async function getLastUSStockPrice(
   const symbols = assetList.map((asset) => asset.symbol);
 
   const results = await yahooFinance.quote(symbols, {
-    fields: [
-      "regularMarketOpen",
-      "regularMarketDayLow",
-      "regularMarketDayHigh",
-      "regularMarketPrice",
-      "regularMarketVolume",
-      "regularMarketTime",
-      "postMarketPrice",
-      "preMarketPrice",
-    ],
+    fields: ["regularMarketPrice"],
     return: "object",
   });
 
@@ -74,13 +70,12 @@ async function getStockPrice(watchList: WatchAsset[]): Promise<StockPrice[]> {
       const roStockPriceList = await getLastROStockPrice(roWatchList);
       console.timeEnd("Fetching stock prices from RO...");
       finalStockPriceList.push(...roStockPriceList);
-
     } catch (error) {
-      console.error(error)
+      console.error(error);
     }
   }
-
-  if (isNYSEMarketOpen()) {
+  // not working
+  if (false) {
     const usWatchList = watchList.filter(
       (asset) => asset.exchangeCountryCode === "US"
     );
@@ -91,7 +86,7 @@ async function getStockPrice(watchList: WatchAsset[]): Promise<StockPrice[]> {
 
       finalStockPriceList.push(...usStockPriceList);
     } catch (error) {
-      console.error(error)
+      console.error(error);
     }
   }
 

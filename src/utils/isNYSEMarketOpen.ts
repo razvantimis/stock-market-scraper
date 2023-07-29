@@ -10,6 +10,6 @@ function isNYSEMarketOpen(): boolean {
       return true;
     }
   }
-  return false;
+  return true;
 }
 export { isNYSEMarketOpen };
