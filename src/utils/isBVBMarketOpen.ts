@@ -11,7 +11,7 @@ function isBVBMarketOpen(): boolean {
     }
   }
 
-  return false;
+  return true;
 }
 
 export { isBVBMarketOpen }
